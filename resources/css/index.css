@@ -124,6 +124,10 @@ header {
     align-items: center;
 }
 
+.banner-btn:hover {
+    background-color: black;
+}
+
 .banner-btn a {
     color: white;
     text-decoration: none;
