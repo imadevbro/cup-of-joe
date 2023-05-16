@@ -262,14 +262,6 @@ header {
     }
 }
 
-#episodes {
-    background-color: #FAB713;
-}
-
-#episodes h2 {
-    color: white;
-}
-
 footer {
     background-color: black;
 }
@@ -289,6 +281,15 @@ footer p, a {
     justify-content: center;
 }
 
+#episodes {
+    background-image: url("../images/brick-wall.jpg");
+    background-size: cover;
+}
+
+#episodes h2 {
+    color: #FAB713;
+}
+
 .episode-container {
     display: flex;
     flex-wrap: wrap;
@@ -296,13 +297,17 @@ footer p, a {
 }
 
 .episode-card {
-    padding: 2.5rem;
+    padding: 2rem;
     flex-basis: 300px;
     margin: 20px;
     background-color: black;
+    border-radius: 0.75rem;
 }
 
 .episode-image img {
-    max-height: 150px;
-    
+    max-height: 200px;
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
 }
