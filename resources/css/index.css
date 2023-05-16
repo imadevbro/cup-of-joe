@@ -262,8 +262,16 @@ header {
     }
 }
 
-footer {
+#episodes {
     background-color: #FAB713;
+}
+
+#episodes h2 {
+    color: white;
+}
+
+footer {
+    background-color: black;
 }
 
 footer h5 {
@@ -279,4 +287,22 @@ footer p, a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.episode-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.episode-card {
+    padding: 2.5rem;
+    flex-basis: 300px;
+    margin: 20px;
+    background-color: black;
+}
+
+.episode-image img {
+    max-height: 150px;
+    
 }
