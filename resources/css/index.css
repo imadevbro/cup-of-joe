@@ -7,6 +7,12 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 450px) {
+    * {
+        font-size: 12px;
+    }
+}
+
 @font-face {
     font-family: 'garetbook';
     src: url('../fonts/garet-book-webfont.woff2') format('woff2'),
